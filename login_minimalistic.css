@@ -17,5 +17,7 @@
   display: none
 }
 
-
-
+#loginPage {
+  background: url(https://jbox.24-7.ro/logo.png) !important; 
+  background-size: cover !important;
+}
