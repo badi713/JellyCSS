@@ -1,5 +1,6 @@
 /*Narrow the login form, size according to display size (bigger on mobile)*/
 #loginPage .readOnlyContent,
+
 #loginPage form {
   max-width: 22em;
 }
@@ -8,6 +9,7 @@
 #loginPage h1 {
   display: none
 }
+
 #loginPage .padded-left.padded-right.padded-bottom-page {
   margin-top: 8em
 }
@@ -16,7 +18,8 @@
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
   display: none
 }
+
 #loginPage {
-  background: url(https://i.imgur.com/9vL4iNf.png) !important; 
+  background: url(https://jbox.24-7.ro/background.jpg) !important; 
   background-size: cover !important;
 }
