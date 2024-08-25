@@ -100,6 +100,12 @@ progress::-webkit-progress-value {
   color: rgba(255,255,255,0.75) !important;
 }
 
+/*Login background*/
+#loginPage {
+  background: url(https://i.imgur.com/9vL4iNf.png) !important; 
+  background-size: cover !important;
+}
+
 /*Make watched icon, footer on chapter thumnails (and other things), and count indicator dark and transparent*/
 .innerCardFooter,
 .countIndicator, 
