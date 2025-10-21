@@ -1,0 +1,64 @@
+#loginPage .padded-left.padded-right.padded-bottom-page {
+    background: #000000bf;
+    transform: translate(-60%, -60%);
+    top: 50%;
+    left: 50%;
+    margin: 50px;
+    position: absolute;
+    border-radius: 25px;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 3em !important;
+}
+
+#loginPage .readOnlyContent {
+  padding: 0 !important;
+  width: 100% !important;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+/*Transparent top bar*/
+.skinHeader-withBackground {background-color: #20202000 !important;}
+
+/* Hide "please login" text, margin is to prevent login form moving too far up */
+#loginPage h1 {  display: none;}
+
+/* Hide "manual" and "forgot" buttons */
+#loginPage .raised.cancel.block.btnManual.emby-button {  display: none;}
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {  display: none;}
+
+/*Background login*/
+#loginPage {
+ background-image: url('https://jbox.go.ro/jellyfin/Branding/Splashscreen') !important;
+ background-position: top left;
+ background-size: 110%;
+ background-attachment: fixed;
+ animation: backgroundAnimation 60s infinite alternate;
+ z-index: 2;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: top left;
+  }
+  25% {
+    background-position: top right;
+  }
+  50% {
+    background-position: bottom right;
+  }
+  75% {
+    background-position: bottom left;
+  }
+  100% {
+    background-position: top left;
+  }
+}
+
